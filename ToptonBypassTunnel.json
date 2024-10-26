@@ -1,0 +1,186 @@
+{
+  "nodes": {
+    "DW5_TBT_N9di6": {
+      "position": {
+        "x": -16023.1982,
+        "y": 598.1395,
+        "z": -10990.1895
+      },
+      "rotation": {
+        "x": 0.00175614,
+        "y": 230.125885,
+        "z": 359.9998
+      },
+      "flipSwitchStand": false
+    },
+    "NantahalaTunnEntry": {
+      "position": {
+        "x": -16257.8,
+        "y": 598.13,
+        "z": -11163.81
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 234.13,
+        "z": 0
+      },
+      "flipSwitchStand": false
+    },
+    "DW5_TBT_Nv77r": {
+      "position": {
+        "x": -24952.7617,
+        "y": 598.5976,
+        "z": -18612.9453
+      },
+      "rotation": {
+        "x": 359.875732,
+        "y": 208.9517,
+        "z": -1.23063739E-06
+      },
+      "flipSwitchStand": false
+    },
+    "RhodoTunnelBridge1": {
+      "position": {
+        "x": -24931.82,
+        "y": 598.6682,
+        "z": -18574.28
+      },
+      "rotation": {
+        "x": -0.00425202353,
+        "y": 208.4517,
+        "z": -1.01802493E-06
+      },
+      "flipSwitchStand": false
+    },
+    "UnderTopton": {
+      "position": {
+        "x": -18769.46,
+        "y": 598.36,
+        "z": -14864.98
+      },
+      "rotation": {
+        "x": -0.004252022,
+        "y": 200.4517,
+        "z": -1.01865032E-06
+      },
+      "flipSwitchStand": false
+    },
+    "DW5_TBT_Nxyf1": {
+      "position": {
+        "x": -24913.957,
+        "y": 598.67,
+        "z": -18541.71
+      },
+      "rotation": {
+        "x": 0.100000046,
+        "y": 208.949966,
+        "z": 2.33454074E-08
+      },
+      "flipSwitchStand": false
+    },
+    "RhodoTunnEntry": {
+      "position": {
+        "x": -24906.2949,
+        "y": 598.674438,
+        "z": -18528.1016
+      },
+      "rotation": {
+        "x": -0.00425202353,
+        "y": 209.4517,
+        "z": -1.01875457E-06
+      },
+      "flipSwitchStand": false
+    }
+  },
+  "segments": {
+    "DW5_TBT_Sox7m": {
+      "style": "Standard",
+      "trackClass": "Mainline",
+      "startId": "Nbgi",
+      "endId": "DW5_TBT_N9di6",
+      "priority": 0,
+      "speedLimit": 0,
+      "groupId": ""
+    },
+    "DW5_TBT_Sqjv9": {
+      "style": "Standard",
+      "trackClass": "Mainline",
+      "startId": "DW5_TBT_N9di6",
+      "endId": "NantahalaTunnEntry",
+      "priority": 0,
+      "speedLimit": 0,
+      "groupId": ""
+    },
+    "DW5_TBT_S6ijz": {
+      "style": "Standard",
+      "trackClass": "Mainline",
+      "startId": "Nu9y",
+      "endId": "DW5_TBT_Nv77r",
+      "priority": 0,
+      "speedLimit": 0,
+      "groupId": ""
+    },
+    "DW5_TBT_Szjl8": {
+      "style": "Standard",
+      "trackClass": "Mainline",
+      "startId": "DW5_TBT_Nv77r",
+      "endId": "RhodoTunnelBridge1",
+      "priority": 0,
+      "speedLimit": 0,
+      "groupId": ""
+    },
+    "RhodoTunnelBridge0": {
+      "style": "Bridge",
+      "trackClass": "Mainline",
+      "startId": "RhodoTunnelBridge1",
+      "endId": "DW5_TBT_Nxyf1",
+      "priority": 0,
+      "speedLimit": 35,
+      "groupId": ""
+    },
+    "RhodoTunnelEnt": {
+      "style": "Standard",
+      "trackClass": "Mainline",
+      "startId": "DW5_TBT_Nxyf1",
+      "endId": "RhodoTunnEntry",
+      "priority": 0,
+      "speedLimit": 35,
+      "groupId": ""
+    },
+    "TheTunnel1": {
+      "style": "Tunnel",
+      "trackClass": "Mainline",
+      "startId": "RhodoTunnEntry",
+      "endId": "UnderTopton",
+      "priority": 0,
+      "speedLimit": 45,
+      "groupId": ""
+    },
+    "TheTunnel2": {
+      "style": "Tunnel",
+      "trackClass": "Mainline",
+      "startId": "NantahalaTunnEntry",
+      "endId": "UnderTopton",
+      "priority": 0,
+      "speedLimit": 45,
+      "groupId": ""
+    }
+  },
+  "splineys": {
+    "Rhodo Tunnel Bridge": {
+      "meshBuilder": "StrangeCustoms.AutoTrestle",
+      "points": [
+        {
+          "position": { "x": -24913.96, "y": 598.30, "z": -18541.71 },
+          "rotation": { "x": 0, "y": 208.95, "z": 0 }
+        },
+        {
+          "position": { "x": -24931.82, "y": 598.30, "z": -18574.28 },
+          "rotation": { "x": 0.0, "y": 208.45, "z": 0 }
+        }
+      ],
+      "headStyle": "block",
+      "tailStyle": "bent"
+    }
+  }
+}

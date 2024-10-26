@@ -1,0 +1,23 @@
+{
+  "manifestVersion": 5,
+  "id": "DWFiv3.ToptonBypassTunnel",
+  "name": "DWFiv3's Topton Bypass Tunnel",
+  "version": "1.0.1",
+  "updateUrl": "https://raw.githubusercontent.com/DWFiv3/ToptonBypassTunnel/refs/heads/main/update/update.json",
+  "conflictsWith": [
+    "DW5.ToptonBypassTunnel"
+],
+  "requires": [
+    {
+      "id": "railloader",
+      "notBefore": "1.8.2.1"
+    },
+  {
+      "id": "Zamu.StrangeCustoms",
+      "notBefore": "1.7.24194.2259"
+  }
+  ],
+  "mixintos": {
+    "game-graph": "file(ToptonBypassTunnel.json)"
+  }
+}
