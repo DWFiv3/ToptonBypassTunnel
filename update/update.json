@@ -1,0 +1,19 @@
+{
+    "DWFiv3.HewittStroage": {
+        "version": "1.0.1",
+        "changelog": [
+            {
+                "version": "1.0.1",
+                "desc": "- Added update feature, rebranded as DWFiv3 not DW5"
+            },  
+            {
+                "version": "1.0.0",
+                "desc": "- Public release of the mod"
+            },  
+            {
+                "version": "0.0.1",
+                "desc": "- 404 Track not found"
+            }
+        ]
+    }
+}
