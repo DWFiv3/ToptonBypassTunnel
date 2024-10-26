@@ -4,7 +4,7 @@
         "changelog": [
             {
                 "version": "1.0.1",
-                "desc": "- Added update feature, rebranded as DWFiv3 not DW5"
+                "desc": "- Added update feature, rebranded as DWFiv3 not DW5, moved to own repo"
             },  
             {
                 "version": "1.0.0",
